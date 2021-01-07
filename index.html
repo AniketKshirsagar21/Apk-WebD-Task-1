@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <a href = "/home">Home</a> |
+        <a href = "/contact">Contact</a> |
+        <a href = "/about">About</a> |
+        <a href ="/projects">Projects</a> |
+    </header>
+
+    
+    <h1>Student Registration Form</h1>
+    <form> 
+        <!-- names -->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"> <br><br>
+
+        <!-- Date of Birth -->
+       <label for="DOB">DOB:</label><br>
+       <input type="date" id="DOB"><br><br><br>
+
+       <!-- Father's Name -->
+       <label for="Fname">Father's Name:</lable><br>
+       <input type="text" id="Fname"><br><br>
+
+
+       <!-- Document -->
+       <label for="DOC">Document:</label><br>
+       <input type="radio" name="DOC" id="DOC" value="Aadhar">
+       <label for="Aadhar">Aadhar</label><br>
+       <input type="radio" name="DOC" id="Driving" value="Driving">
+       <label for="Driving">Driving License</label><br>
+       <input type="radio" name="DOC" id="Other" value="Other">
+       <label for="Other">Other</label><br><br><br>
+
+
+       <!-- Gender -->
+       <label for="gender">Gender</label><br>
+       <select name="gender" id="gender">
+           <option value="male">Male</option>
+           <option value="female">Female</option>
+           <option value="other">Other</option>
+       </select>
+        <br><br>
+
+        <!-- Description -->
+        <label for="description">Description:</label><br>
+        <textarea rows = " 6" cols ="60" name = "description"></textarea><br><br>
+
+            <input type="checkbox" id="confirm" name="confirm">
+            <label for="confirm">Confirm</label><br>
+
+            <input type="submit" value ="Submit"><br>
+            <br><br><br>
+
+
+        <!-- footer  -->
+        <footer>
+            Made by Geekhaven
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+    
+        </footer>
+        
+
+
+    </form>
+</body>
+</html>
